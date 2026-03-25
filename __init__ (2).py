@@ -11,7 +11,7 @@ import pandas as pd
 from collections import defaultdict
 
 API        = "http://localhost:8000"
-CSV_PATH   = "../ood_test_dataset.csv"
+CSV_PATH   = "ood_test_dataset.csv"
 LABEL_MAP  = {0: "Critical", 1: "Safe", 2: "Vulnerable"}
 CLASSES    = ["Safe", "Vulnerable", "Critical"]
 
